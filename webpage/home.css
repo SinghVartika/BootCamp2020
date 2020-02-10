@@ -1,0 +1,93 @@
+.nav{
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-right: 100px;
+	background: #404040;
+	height: auto; 	
+	width: 1000px;
+	position: absolute;
+}
+.subnav{
+	padding: 20px;
+	background: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	color: white;
+	position: relative;
+	height: auto; 
+}
+h2{
+	color: white;
+	text-align: left;
+	position: relative;
+	padding: 20px;
+}
+h1{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 130px;
+	padding-top: 130px;
+}
+.main{
+	background: white;
+	margin-top: 180px;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 900px;
+	width: 1000px;
+	position: absolute;
+}
+.menu{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #404040;
+	height: 360px; 	
+	width: 960px;
+	position: relative;
+}
+.text{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #bfbfbf;
+	height: auto; 	
+	width: 960px;
+	position: relative;
+}
+.txt{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	height: auto; 	
+	width: 960px;
+	position: relative;
+}
+.txt1{
+	margin-left: 20px;	
+	margin-top: 20px;
+	height: auto; 	
+	width: 960px;
+	position: absolute;
+}
+.imgmy{
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 315px; 	
+	width: 215px;
+	background: #404040;
+	position: relative;
+}
+.foot{
+	margin-left: 0px;
+	margin-top: 400px;
+	margin-right: 100px;
+	background: black;
+	height: auto; 	
+	width: 980px;
+	color: white;
+	position: relative;
+	padding: 10px;
+}
