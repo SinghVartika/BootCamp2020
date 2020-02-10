@@ -1,0 +1,96 @@
+1. How are inline and block elements different from each other?
+
+Ans-  Inline elements are are displayed in a single line in continuation until stated by the user to not to while block elements gnerally appear in a new line.
+
+2. Explain the difference between visibility:hidden and display:none
+
+Ans- elements whose visibility is hidden do not appear on the page although they are occupying a place on the web page and will be reflected when printing a page. On the oher hand display none ie]s niether visible nor it occupies any space.
+
+3. Explain the clear and float properties.
+
+Ans- Float is used to specify how an element will float with respect to the other while clear will specifies what elements can float beside the cleared element and on which side.
+
+4.  explain difference between absolute, relative,fixed and static.
+
+Ans- absolute makes the element relative and fixed with respec to its ancesstor if any present.
+Relative decides the position according to the nearest ancesstor.
+Fixed fixes the element with respect to the page.
+Static keeps the element static and the element disappears when scrolled out of view.
+
+5.  Write the HTML code to create a table in which there are 4 columns( ID , Employee Name, Designation, Department) and at least 6 rows. Also do some styling to it.
+
+Ans- <html>
+	<body>
+		<table border=1>
+			<th>
+				<td>ID</td>
+				<td>Employee Name</td>
+				<td>Designation</td>
+				<td>Department</td>
+			</th>
+			<tr>
+				<td>1</td>
+				<td>A</td>
+				<td>Lead</td>
+				<td>technical</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>B</td>
+				<td>Lead</td>
+				<td>technical</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>c</td>
+				<td>Management</td>
+				<td>technical</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>D</td>
+				<td>Lead</td>
+				<td>HR</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>E</td>
+				<td>Lead</td>
+				<td>HR</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>F</td>
+				<td>Lead</td>
+				<td>Management</td>
+			</tr>
+		</table>
+	</body>
+	</html>
+
+6.  Why do we use meta tags?
+
+Ans- We need meta tags to store the meta information about the page that can be used for SEO improvement of our page.
+
+7. Explain box model.  
+
+Ans- <div> is used for box modelling of our page where the elements are all in the format of boxes and the box have- 
+		content
+		padding
+		margin and various stylings
+
+8. What are the different types of CSS Selectors?   
+
+Ans- Styling provided to the HTML tags are known as the HTML selectors.
+
+9. Define Doctype.
+
+Ans- it is used to give he document type defination of the webpage. It is reflected in the XML document.
+
+10. Explain 5 HTML5 semantic tags.
+
+Ans- <header> - used to give the header to a webpage
+	<footer>- used to give the footer to a webpage
+	<figure>- used to have figure in our pages
+	<figcaption>- used to give caption to our figure
+	<article>- used to create article in our pages.
