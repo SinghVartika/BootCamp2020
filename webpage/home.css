@@ -4,8 +4,25 @@ body{
 .col{
 	background: white;
 }
+.r{
+	background: white;
+}
+.mainn{
+    margin-top: 180px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 900px;
+    width: 1000px;
+    position: absolute;
+    background: white;
+}
 .nav{
     background: rgb(64, 64, 64);
+}
+.rw{
+    background: white;
+    margin-top: 10px;
+    height: auto;
 }
 .subnav {	
     color: white;
@@ -18,6 +35,77 @@ body{
 h2 {
     color: white;
     text-align: left;
-    position: relative;
     padding: 20px;
 }
+.menu {
+    height: 360px;
+    width: 100%;
+    background: rgb(64, 64, 64);
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 130px 20px;
+}
+.text {
+    margin-left: 92px;	
+    width: auto;	
+    background: rgb(191, 191, 191);
+}
+.main{
+	background: white;
+	height: auto;
+	width: 920px;
+	position: absolute;
+}
+.menu{
+	margin-top: 20px;
+	margin-left: 20px;
+	background: #404040;
+	height: 360px; 	
+	width: 880px;
+	position: relative;
+}
+.text{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	background: #bfbfbf;
+	height: auto; 	
+	width: 880px;
+	position: relative;
+}
+.txt{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	height: auto; 	
+	width: 960px;
+	position: relative;
+}
+.txt1{
+	margin-left: 20px;	
+	margin-top: 20px;
+	height: auto; 	
+	width: 960px;
+	position: absolute;
+}
+.imgmy{
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 315px; 	
+	width: 210px;
+	background: #404040;
+	position: relative;
+}
+.foot{
+	margin-left: 0px;
+	margin-top: 400px;
+	background: black;
+	height: auto; 	
+	width: 920px;
+	color: white;
+	position: relative;
+	padding: 10px;
+}
+
