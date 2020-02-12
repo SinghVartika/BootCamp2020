@@ -1,66 +1,103 @@
-.txt {
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    width: auto;
-    color: #00bfff;
-    overflow: hidden;
+.nav {
+    
+    position : absolute;
+    width : 80%;
+    left : 50px;
+    display: flex;
+    border-bottom : 1px solid #D3d3d3;;
+    color : #00bfff; 
 }
-.frm{
-	width: 30%;
-	border-radius: 5px;
-	border: 1px solid black;
-	margin: 0px;
-	padding: 0px;
+#home  {
+    position : relative;
+    top : 40px;
+    right : -780px;
+}    
+#qh {
+    top : 40px;
+    
+    position : relative ;
+    right : -820px;
 }
-h3{
-	background: #b3b3b3;
-	color: white;
-	text-align: left;
-	margin: 0px;
-	padding: 20px;
-	border-radius: 5px;
-	height: 20px;
+
+.form {
+
+    position : absolute;
+    top : 100px;
+    left : 30%;
+    border : 1px solid #040404;
+    height : 660px;
+    width : 350px;
+    border-radius : 2%;
+    background-color: #D3d3d3;
+    
 }
-input[type=text]{
-	border-radius: 5px;
-	border: 1px solid black;
-	width: 98%;
-	height: 40px;
-	margin-right: 10px;	
+
+.br {
+    top : -18.5px;
+    position : relative ;
+    background-color: #D3d3d3;
+    border-bottom: 1px solid #141414;
+    border-top-left-radius : 7%;
+    border-top-right-radius : 7%;
+    height : 50px;
 }
-textarea{
-	border-radius: 5px;
-	border: 1px solid black;
-	width: 98%;
-	height: 80px;
-	margin-right: 10px;	
+.br h3 {
+    position : relative ;
+    top : 15px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left : 10px;
+    color : white ;
 }
-select{
-	border-radius: 5px;
-	border: 1px solid black;
-	width: 98%;
-	height: 30px;
-	margin-right: 10px;
-	background: #4dd2ff;
+
+.button{
+
+position : relative;
+top  : -10px;
+float : right ;
+right : 10px;
+
 }
-input[type=file]{
-	border-radius: 5px;
-	border: 1px solid black;
-	width: 98%;
-	margin-right: 10px;	
+#btn{
+    height: 30px;
+    width : 60px;
+    border-color:  #4dd2ff;
+     color : white;
+     font-weight: 600;
+    background-color: #4dd2ff;
+} 
+
+.title {
+   position : relative ;
+   margin-top: 10px;
+   width : 90%;
+   left : 10px;
+   height : 60px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: larger;
+    font-weight: 500;
 }
-.btn{
-	border-radius: 5px;
-	border: 1px solid black;
-	width: 90%;
-	height: 50px;
-	margin: 10px;
-	background: #d9d9d9;
+#ttl{
+
+    width : 100%;
+    height : 26px;
+    border-radius : 3%;
+
+    
 }
-button{
-	background: #4dd2ff;
-	margin-left:260px;
-	margin-top: 10px;
-	margin-bottom:10px;		
+
+.title select {
+     width : 100%;
+     height : 26px;
+     background-color :  #4dd2ff; 
+}
+#vsn
+{
+    width : 75%;
+    height : 29px;
+}
+.formbody {
+    position : relative;
+    top : -30px;
+    border-bottom : 1px solid #141414;
+    background-color: white;
 }
