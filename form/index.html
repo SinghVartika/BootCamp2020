@@ -1,52 +1,81 @@
-<html>
-	<head>
-		<title>Web page</title>
-		<link rel="stylesheet" type="text/css" href="home.css"/>
-	</head>
-	<body>
-		<header>
-		<div class="txt">
-			<h2 style="float: left;">TO THE NEW</h2>
-			<p style="float: right;">Home   Quick help</p>
-		</header>
-		<center>
-		<div class="frm">		
-			<form>
-				<h3> Bug Form</h3>
-			</form>	
-			<p style="text-align: left; margin-left: 10px">Title:*<br>	
-			<input type="text" name="title" required>
-			<p style="text-align: left; margin-left: 10px">Description:*<br>
-			<textarea name="desc" required></textarea>
-			<p style="text-align: left; margin-left: 10px">Operating System:<br>
-			<select name="os">
-				<option>Windows</option>
-				<option>Linux</option>
-				<option>IOS</option>
-			</select>
-			<p style="text-align: left; margin-left: 10px">Product:*<br>
-			<select name="product">
-				<option>Formoid</option>
-				<option>Linux</option>
-				<option>IOS</option>
-			</select>
-			<p style="text-align: left; margin-right: 200px; margin-left: 10px;">Version:*<br>
-			<input type="text" name="title" required>
-			<p style="text-align: left; margin-right: 200px; margin-left: 10px;">License:*<br>
-			<input type="radio" value="Free">Free &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" value="Buiseness">Buiseness
-			<p style="text-align: left; margin-left: 10px">Severity:<br>
-			<select name="os">
-				<option>Critical</option>
-				<option>High</option>
-				<option>Low</option>
-			</select>
-			<p style="text-align: left; margin-left: 10px">Attachements:<br>
-			<input type="file" name="attc" required>	
-			<div class="btn">
-				<button>Send</button>
-			</div>
-			</center>
-			</div>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Web Page</title>
+</head>
+
+<body>
+    <div class="nav">
+        <h1>To the New</h1>
+        <span id="home">Home</span>
+        <spanid id="qh">Quick help</span>
+    </div>
+    <div class="form">
+        <div class="br">
+            <h3>BUG REPORT</h3>
+        </div>
+      <div class ="formbody">
+        <form>
+
+            <div class="title"> 
+                <label>Title</label> <br>
+                <input id="ttl" type="text" />
+            </div>
+            <div class="title">
+                <label>description</label><br>
+                <textarea></textarea>
+            </div>
+            <div class="title">
+                <label>Operating system</label> <br>
+                <select style = "border-radius : 5%">
+                    <option selected value="Windows">Windows</option>
+                    <option value="Linux">Linux</option>
+                    <option value="Mac">Mac</option>
+                </select>
+            </div>
+            <div class ="title" style = "border-radius : 5%">
+                <label>Product</label><br>
+                <select>
+                    <option selected value="Formoid">Formoid</option>
+                    <option value="Sofware">Software</option>
+                    <option value="Hardware">Hardware</option>
+
+                </select>
+            </div>
+            <div class = "title">
+                <label>Version</label><br>
+                <input id ="vsn" type = "text"/>
+            </div>
+            <div class = "title">
+                <label>Licence</label><br>
+                <input style="float : left" type="radio" name="gender" value="male"> <span style="float : left">Male </span>
+                <input style="float : right" type="radio" name="gender" value="female"> <span style ="float:right">Female</span>
+            </div>
+            <div class ="title">
+                <label>Severity</label><br>
+                <select style = "border-radius : 5%">
+                    <option selected value="Critical">Critical</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="low">Low</option>
+
+                </select>
+            </div>
+            <div class = "title">
+                <label>Attachment</label><br>
+                <input type="file" />
+            </div>
+        </form>
+      </div>
+        <div class="button">
+            <button id="btn" type="submit">Send</button>
+        </div>
+    </div>
+
+    </div>
+</body>
+
 </html>
