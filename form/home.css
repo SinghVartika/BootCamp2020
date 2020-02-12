@@ -101,3 +101,39 @@ right : 10px;
     border-bottom : 1px solid #141414;
     background-color: white;
 }
+input[type=text]{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 98%;
+	height: 40px;
+	margin-right: 10px;	
+}
+textarea{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 98%;
+	height: 80px;
+	margin-right: 10px;	
+}
+select{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 98%;
+	height: 30px;
+	margin-right: 10px;
+	background: #4dd2ff;
+}
+input[type=file]{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 98%;
+	margin-right: 10px;	
+}
+.btn{
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 90%;
+	height: 50px;
+	margin: 10px;
+	background: #d9d9d9;
+}
