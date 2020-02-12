@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>
+        Employee selection on the basis of the salary in Javascript
+    </title>
+</head>
+<script type="text/JavaScript">
+        (function calculate() {
+            var c=window.prompt("How many employee details you want to enter");
+            var o={};
+            for(var i=0; i<c; i++)
+            {
+                var n=window.prompt("Enter the name of the employee");
+                var a=window.prompt("Enter the age of the employee");
+                var s=window.prompt("Enter the salary of the employee");
+                var d=window.prompt("Enter the date of birth of the employee");
+                o[i]={
+                    name: n,
+                    age: a,
+                    salary: s,
+                    dob: d
+                };
+            }
+            var age[];
+            for(var i=0; i<c; i++)
+            {
+                if(age.hasOwnProperty(o[i].age))
+                {
+                    age[o[i].age].push(o[i]);
+                }
+                else
+                {
+                    age[o[i].age] = [];
+                    age[o[i].age].push(o[i]);
+                }
+            }
+            for(var i=0; i<c; i++)
+            {
+                document.writeln(JSON.stringify(a[i], null, 4));
+            }
+        }())
+    </script>
+
+<body>
+    <!-- Employee object in Javascript. -->
+
+</body>
+
+</html>
