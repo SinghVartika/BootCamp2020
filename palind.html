@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>
+            Checking the String if it is palindrome or not
+        </title>
+    </head>
+    <script type="text/JavaScript">
+        (function calculate() {
+            var a= window.prompt("Enter the string");
+            var i= a.length;
+            var c= 0;
+            var b= a.toLowerCase();
+            for(var j=0;j<= i/2 ;j++)
+            {
+                if( b[j]!=b[i-j-1])
+                    c=c+1;
+            }
+            if(c==0)
+            {
+                document.write( a+ " is a palindome string");
+            }
+            else
+            {
+                document.write( a+ " is not a palindome string");
+            }
+        }())
+    </script>
+    <body>  
+        <!-- Checking if the string is palindrome aur not. -->
+
+    </body>
+</html>
