@@ -94,4 +94,79 @@ struct employee{
     var competency: String
     var attendancePercent: String
 }
-var arr : [employee] = [employee(empID: 1, empName: "Sachin", empEmail: "sachin@tothenew", joiningDate: "22/08/2017", isPresent: "Yes", competency: "IOS", attendancePercent: "94")]
+var arr : [employee] = [employee(empID: 1, empName: "Sachin", empEmail: "sachin@tothenew", joiningDate: "01/08/2019", isPresent: "Yes", competency: "IOS", attendancePercent: "94"),
+employee(empID: 2, empName: "Muskan", empEmail: "muskan@tothenew", joiningDate: "22/08/2017", isPresent: "No", competency: "IOS", attendancePercent: "94"),
+employee(empID: 3, empName: "Mithilesh", empEmail: "mithilesh@tothenew", joiningDate: "22/08/2017", isPresent: "Yes", competency: "FEEN", attendancePercent: "94"),
+employee(empID: 4, empName: "Ankit", empEmail: "ankit@tothenew", joiningDate: "22/08/2017", isPresent: "Yes", competency: "IOS", attendancePercent: "94"),
+employee(empID: 5, empName: "Marry", empEmail: "marry@tothenew", joiningDate: "22/08/2017", isPresent: "Yes", competency: "IOS", attendancePercent: "94")]
+
+enum problem{
+    case Joining
+    case Present
+    case Competency
+    case Allowed
+}
+
+class Calculate
+{
+    func isAllowedForBonus (email: String) -> String
+        {
+            var ans : String = ""
+            var emp : employee
+            for i in arr
+            {
+                
+                let cal = Calculate()
+                if email == i.empEmail
+                {
+//                    emp.attendancePercent = i.attendancePercent
+//                    emp.competency = i.competency
+//                    emp.empEmail = i.empEmail
+//                    emp.empID = i.empID
+//                    emp.empName = i.empName
+//                    emp.isPresent = i.isPresent
+                    emp.self = i.self
+                    if emp.isPresent == "No"
+                    {
+                        let prb : problem = problem.Present
+                        ans = cal.check(arg: prb, emp: emp)
+                    }
+                    else if emp.competency != "IOS"
+                    {
+                        let prb : problem = problem.Competency
+                        ans = cal.check(arg: prb, emp: emp)
+                    }
+                    else if emp.joiningDate <= "04/03/2019"
+                    {
+                        let prb : problem = problem.Joining
+                        ans = cal.check(arg: prb, emp: emp)
+                    }
+                    else
+                    {
+                        let prb : problem = problem.Allowed
+                        ans = cal.check(arg: prb, emp: emp)
+                    }
+                }
+            }
+            return ans
+        }
+func check (arg : problem , emp: employee) -> String
+{
+    switch arg{
+    case .Joining:
+        return ("\(emp.empName) has joined us on \(emp.joiningDate) and is still to complete one year")
+    case .Present:
+        return ("\(emp.empName) is absent today")
+    case .Competency:
+        return ("\(emp.empName) competency does not fall under the bonus program")
+    case .Allowed:
+        return ("\(emp.empName) is eligible for bonus")
+    }
+}
+}
+var check = Calculate()
+print(check.isAllowedForBonus(email: "muskan@tothenew"))
+print(check.isAllowedForBonus(email: "mithilesh@tothenew"))
+print(check.isAllowedForBonus(email: "ankit@tothenew"))
+print(check.isAllowedForBonus(email: "sachin@tothenew"))
+print(check.isAllowedForBonus(email: "marry@tothenew"))
